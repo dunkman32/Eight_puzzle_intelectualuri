@@ -100,6 +100,7 @@ class BFS {
                 return;
             }
             // მიმდინარე კვანძის გროვაში ჩამატება
+
             for (int i = 0; i < MAX_MOVES; i++) {
                 int X = current.getX() + ROW[i];
                 int Y = current.getY() + COLUMN[i];
