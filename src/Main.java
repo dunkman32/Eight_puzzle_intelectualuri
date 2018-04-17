@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String... args) {
 
-        System.out.println("     [ რვიანი ]  " + "\n");
+        System.out.println("     [ რვიანი ]  " + System.getProperty("line.separator"));
 
         final int zeroX = 0;
         final int zeroY = 0;
